@@ -1,9 +1,7 @@
 <a name="readme-top"></a>
-
 <div align="center">
-# <h1>Hello Microverse project </h1>
+#<h1>Hello Microverse project </h1>
 </div>
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -97,7 +95,16 @@ Install this project with:
 ```
 npm install
 ```
+Install Stylelint
+```
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 
+````
+npx stylelint "**/*.{css,scss}"
+
+```
+npx stylelint "**/*.{css,scss}" --fix
+```
 ### Usage
 
 To run the project, execute the following command:
